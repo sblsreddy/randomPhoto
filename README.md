@@ -14,6 +14,12 @@ ng generate component PhotoShow
 
 # interface schema to render response object 
 
+# Helper method instead of duplicate code
+
+# Tie UI code to backend to display the random image
+
+# Fix error with *ngIf
+
 
 
 

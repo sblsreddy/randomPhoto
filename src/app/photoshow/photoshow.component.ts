@@ -8,14 +8,25 @@ import { UnsplashPhotoService } from '../unsplash-photo.service';
 })
 
 export class PhotoshowComponent implements OnInit {
+  
+  photoUrl: string | undefined;
 
   constructor(private photoservice : UnsplashPhotoService) { 
-    this.photoservice.getPhoto().subscribe( (response)=>{
-        console.log(response.urls.regular);
-    });
+    this.fetchPhoto();
   }
 
   ngOnInit(): void {
+  }
+
+  onClick(){
+    this.fetchPhoto();
+  }
+
+  // Helper method used in onclick and constructor
+  fetchPhoto(){
+    this.photoservice.getPhoto().subscribe( (response)=>{
+      this.photoUrl = response.urls.regular;
+  });
   }
 
 }
