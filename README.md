@@ -1,4 +1,17 @@
 # RandomPhoto
+# Creating New Project 
+ng new randomPhoto
+
+# Creating New Service
+ng generate service UnsplashPhoto
+
+# Creating New Component
+ng generate component PhotoShow
+
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
 
