@@ -8,7 +8,11 @@ ng generate service UnsplashPhoto
 # Creating New Component
 ng generate component PhotoShow
 
+# Http Client Module and  HttpClient to use it and make network call
 
+# Dependency Injection of servce inside the component contructor 
+
+# interface schema to render response object 
 
 
 
