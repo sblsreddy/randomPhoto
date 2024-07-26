@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './photoshow.component.html',
   styleUrls: ['./photoshow.component.css']
 })
+
 export class PhotoshowComponent implements OnInit {
 
   constructor() { }
